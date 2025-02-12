@@ -1,0 +1,4 @@
+@EndUserText.label: 'Expose CDS'
+define service ZOEGI_SD_ART001 {
+  expose ZOEGI_CDS_ART_001;
+}

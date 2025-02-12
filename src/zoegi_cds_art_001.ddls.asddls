@@ -2,6 +2,7 @@
 @AbapCatalog.viewEnhancementCategory: [#NONE]
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Art articles view'
+@Metadata.allowExtensions: true
 @Metadata.ignorePropagatedAnnotations: true
 @ObjectModel.usageType:{
     serviceQuality: #X,
@@ -11,6 +12,7 @@
 define view entity ZOEGI_CDS_ART_001
   as select from zoegi_tab_art
 {
+      //key client as Client,
   key id_art as IdArt,
       descr  as Descr,
       desc2  as Desc2,
